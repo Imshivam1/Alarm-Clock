@@ -32,13 +32,13 @@ You can see a live demo of the Alarm Clock Website at [Demo Link](https://imshiv
 
 ## Screenshots
 
-![Screenshot 1]([https://imgur.com/QgaKTp1)]
+![Screenshot 1]([https://imgur.com/QgaKTp1)
 
 ## About the Author
 
 [Shivam Kumar]
 
-Connect with me on LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/imshivam1/))
+Connect with me on LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/imshivam1/)
 
 ## License
 
