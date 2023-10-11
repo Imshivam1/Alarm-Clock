@@ -28,7 +28,7 @@ The Alarm Clock website is a web-based alarm clock that allows users to set alar
 
 ## Demo
 
-You can see a live demo of the Alarm Clock Website at [Demo Link](https://your-demo-link.com).
+You can see a live demo of the Alarm Clock Website at [Demo Link](https://imshivam1.github.io/Alarm-Clock/).
 
 ## Screenshots
 
