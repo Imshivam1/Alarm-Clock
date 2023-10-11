@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alarm</title>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body class="flex">
-  <h1>Alarm Clock</h1>
-  <div class="wrapper flex">
-    <img src="https://setalarmonline.com/assets/img/featured/how-long-does-an-alarm-clock-go-for.jpg" alt="Clock Icon">
-    <h1 id="currentTimeDisplay">00:00:00</h1>
-    <div id="content" class="content flex">
-      <div class="column">
-        <select id="hourSelect">
-          <option value="Hour" selected hidden>Hour</option>
-        </select>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm pro</title>
+    <!--  Favicon    -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!--   CSS   -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="flex">
+      <h1>Alarm Clock</h1>
+
+    <!-- Main container -->
+    <div class="wrapper flex">
+      <img src="files/clock.svg" alt="" />
+      <!-- Temporary time -->
+      <h1 id="currentTime">00:00:00</h1>
+      <!-- Main content -->
+      <div id="content">
+        <!-- Hour section -->
+        <div class="column">
+          <select id="hour">
+            <option value="Hour" selected hidden>Hour</option>
+          </select>
+        </div>
+        <!-- Minute Section -->
+        <div class="column">
+          <select id="minute">
+            <option value="Minute" selected hidden>Minute</option>
+          </select>
+        </div>
+        <!-- AM/PM section -->
+        <div class="column">
+          <select id="ampm">
+            <option value="AM/PM" selected hidden>AM/PM</option>
+          </select>
+        </div>
       </div>
-      <div class="column">
-        <select id="minuteSelect">
-          <option value="Minute" selected hidden>Minute</option>
-        </select>
-      </div>
-      <div class="column">
-        <select id="ampmSelect">
-          <option value="AM/PM" selected hidden>AM/PM</option>
-        </select>
-      </div>
+      <!-- Set alarm Button -->
+      <button id="setBtn"></button>
+      <!-- Alarm time indicator -->
+      <p id="alarmText"></p>
     </div>
-    <button id="setAlarmButton">Set Alarm</button>
-    <p id="alarmTimeIndicator" class="d-none"></p>
-  </div>
-  <script src="script.js"></script>
-</body>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+  </body>
 </html>
