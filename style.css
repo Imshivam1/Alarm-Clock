@@ -15,7 +15,6 @@
   justify-content: center;
   align-items: center;
 }
- 
 
 /* Body Styles */
 body {
@@ -117,7 +116,7 @@ body {
 }
 
 /* Welcome Back Screen Styles */
-.welcomeBackScreen {
+.welcomeBack {
   position: absolute;
   width: 100vw;
   height: 100vh;
@@ -138,7 +137,12 @@ body {
     width: 95vw;
   }
 
-  .welcomeBackScreen {
+  .welcomeBack {
     font-size: 0.5rem;
   }
+}
+
+#resumeBtn {
+    background-color: #af7439;
+    border-radius: 2px 0px 2px 0px;
 }
