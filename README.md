@@ -32,7 +32,7 @@ You can see a live demo of the Alarm Clock Website at [Demo Link](https://your-d
 
 ## Screenshots
 
-![Screenshot 1](screenshot1.png)
+![Screenshot 1]([https://ibb.co/P1vYW2K)]
 
 ## About the Author
 
